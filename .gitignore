@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+backend/results/
+
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
+

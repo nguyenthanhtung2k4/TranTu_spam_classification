@@ -1,0 +1,18 @@
+[
+  {
+    "model_id": "bnb_binary",
+    "display_name": "BernoulliNB + Binary Count (Pipeline)",
+    "joblib_path": "models/bnb_binary_pipeline.joblib",
+    "has_proba": true,
+    "default_threshold": 0.5,
+    "pos_label": "spam"
+  },
+  {
+    "model_id": "lr_embedding",
+    "display_name": "Logistic Regression + Sentence Embedding (Pipeline)",
+    "joblib_path": "models/lr_embedding_pipeline.joblib",
+    "has_proba": true,
+    "default_threshold": 0.5,
+    "pos_label": "spam"
+  }
+]
